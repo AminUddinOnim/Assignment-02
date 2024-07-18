@@ -14,11 +14,13 @@
     
     .banner-container {
         flex-direction: column;
+        padding: 0px 10px;
     }
 
     .banner-text-container .banner-title {
         font-size: 2.5rem;
         margin-top: 20px;
+        line-height: 50px;
     }
 
     .banner-text-container .banner-description {
@@ -44,6 +46,19 @@
         bottom: 220px;
     }
 
+    /* change your habit section */
+
+    .habit-text-container {
+        width: 100%;
+    }
+
+    .change-your-habit .habit-title {
+        font-size: 2rem;
+    }
+
+    .habit-card-container {
+        grid-template-columns: 1fr;
+    }
 
 }
 
