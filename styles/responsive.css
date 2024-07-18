@@ -1,0 +1,50 @@
+
+
+/* responsive mobile screen */
+
+@media screen and (max-width: 576px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+    }
+
+    
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-text-container .banner-title {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .banner-text-container .banner-description {
+        width: auto;
+    }
+
+
+    .banner-img {
+        flex-basis: 100%;
+    }
+
+    .banner-img img {
+        margin-left: 0px;
+    }
+
+    .banner-img .badge-1 {
+        right: 0px;
+        top: 80px;
+    }
+
+    .banner-img .badge-2 {
+        left: 10px;
+        bottom: 220px;
+    }
+
+
+}
+
+
