@@ -3,6 +3,7 @@
 /* responsive mobile screen */
 
 @media screen and (max-width: 576px) {
+
     .navbar ul {
         display: none;
     }
@@ -62,6 +63,12 @@
 
 
     /* Run an Extra Mile Easily  */
+
+    .run-extra-mile {
+        padding: 20px;
+        margin: 15px;
+    }
+
     .run-container {
         flex-direction: column;
         height: 100%;
@@ -83,6 +90,37 @@
     .run-text-container button {
         width: 100%;
     }
+
+    /* BMI Calculator */
+    .bmi-container {
+        flex-direction: column;
+    }
+
+    .bmi-title {
+        font-size: 1,875rem;
+    }
+
+    .bmi-text-container {
+        width: 100%;
+    }
+
+    .bmi-table {
+        flex-basis: 100%;
+    }
+    .bmi-table table {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .bmi-table th {
+        font-weight: 400;
+    }
+
+    .bmi-table-title,
+    .bmi-inputs-title {
+        font-size: 1.125rem;
+    }
+
 
 
 }
