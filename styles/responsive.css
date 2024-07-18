@@ -60,6 +60,31 @@
         grid-template-columns: 1fr;
     }
 
+
+    /* Run an Extra Mile Easily  */
+    .run-container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .run-title {
+        font-size: 2rem;
+    }
+
+    .run-text-container,
+    .run-img {
+        flex-basis: 100%;
+    }
+
+    .run-img {
+        margin-top: 20px;
+    }
+
+    .run-text-container button {
+        width: 100%;
+    }
+
+
 }
 
 

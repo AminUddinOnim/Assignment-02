@@ -15,6 +15,10 @@ body {
     background-color: black;
 }
 
+main {
+    padding: 10px;
+}
+
 /* shared styles start */
 
 .container {
@@ -268,10 +272,57 @@ body {
     line-height: 20px;
     width: 250px;
 }
-
-
 /* change your habit section style end */
 
+/* run-extra-mile section style start */
+
+.run-extra-mile {
+    max-width: 1060px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 100px;
+    background: rgb(34, 34, 34);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.run-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.run-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px 0px;
+}
+
+.run-text-container,
+.run-img {
+    flex-basis: 40%;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.run-text-container button {
+    margin-top: 20px;
+}
+
+
+
+
+/* run-extra-mile section style end */
 
 
 
