@@ -342,7 +342,7 @@ body {
 
 .bmi-chart {
     background-color: rgb(34, 34, 34);
-    /* height: 450px; */
+    padding-bottom: 20px;
 }
 
 .bmi-container {
@@ -399,10 +399,6 @@ body {
     margin: 12px 0px;
 }
 
-/* form {
-    display: flex;
-} */
-
 .flex {
     display: flex;
     gap: 20px;
@@ -435,6 +431,77 @@ form button {
 }
 
 /* BMI Chart section style end */
+/* Meet out Team section style start */
+
+.meet-our-team {
+    max-width: 1060px;
+    margin: 50px auto;
+    color: white;
+}
+
+.team-text-container {
+    width: 650px;
+    margin: 0px auto;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.team-description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin-top: 10px;
+    line-height: 21px;
+}
+
+.team-card-container {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: brightness(75%);
+    object-fit: cover;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-text-container {
+    position: absolute;
+    text-align: left;
+    bottom: 30px;
+    left: 20px;
+}
+
+.card-name {
+    margin-bottom: 6px;
+}
+
+.card-details {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: .875rem;
+
+}
+
+/* Meet out Team section style end */
 
 
 

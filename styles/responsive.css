@@ -54,7 +54,7 @@
     }
 
     .change-your-habit .habit-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .habit-card-container {
@@ -67,6 +67,7 @@
     .run-extra-mile {
         padding: 20px;
         margin: 15px;
+        margin-top: 40px;
     }
 
     .run-container {
@@ -75,7 +76,7 @@
     }
 
     .run-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .run-text-container,
@@ -97,7 +98,7 @@
     }
 
     .bmi-title {
-        font-size: 1,875rem;
+        font-size: 1.5rem;
     }
 
     .bmi-text-container {
@@ -121,6 +122,26 @@
         font-size: 1.125rem;
     }
 
+    /* Meet out Team section style start */
+    .team-card-container {
+        margin: 15px;
+    }
+    
+    .team-title {
+        font-size: 1.5rem;
+    }
+
+    .team-text-container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .card-content {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* Meet out Team section style end */
 
 
 }
