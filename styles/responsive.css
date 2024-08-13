@@ -76,7 +76,7 @@
     }
 
     .run-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .run-text-container,
@@ -122,6 +122,7 @@
         font-size: 1.125rem;
     }
 
+
     /* Meet out Team section style start */
     .team-card-container {
         margin: 15px;
@@ -133,16 +134,50 @@
 
     .team-text-container {
         width: 100%;
-        padding: 5px;
+        padding: 15px;
     }
 
     .card-content {
         grid-template-columns: 1fr;
     }
-
-
     /* Meet out Team section style end */
 
+    /* popular class style start */
+    .popular-class {
+        margin: 15px;
+    }
+
+    .popular-class .popular-title {
+        font-size: 1.5rem;
+    }
+
+    .popular-class-container {
+        flex-direction: column;
+    }
+
+    .popular-text-container {
+        width: auto;
+    }
+
+    .class-card {
+        padding: 10px;
+    }
+
+    .class-card > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .class-card .class-description {
+        width: auto;
+    }
+    .btn {
+        width: 100%;
+    }
+
+
+
+    /* popular class style end */
 
 }
 

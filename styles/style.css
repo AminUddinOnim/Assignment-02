@@ -23,7 +23,7 @@ body {
 }
 
 .btn-primary {
-    background-color: rgb(230, 83, 60);
+    background-color: #e6533c;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -465,7 +465,7 @@ form button {
     padding: 15px;
 }
 
-.card img {
+.card > img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -503,7 +503,95 @@ form button {
 
 /* Meet out Team section style end */
 
+/* popular class style start */
+.popular-class {
+    max-width: 1060px;
+    margin: 30px auto;
+    background-color: #222222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+.popular-text-container {
+    text-align: center;
+    width: 750px;
+    margin: 40px auto;
+}
+
+.popular-class .popular-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.popular-text-container .popular-description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin-top: 10px;
+    line-height: 21px;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.popular-text-container .popular-description::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background-color: #e6533c;
+    bottom: -15px;
+    left: 45%;
+    border-radius: 10px;
+}
+
+.popular-class-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.class-card > img {
+    width: 300px;
+    height: 350px;
+    display: block;
+    filter: brightness(75%);
+    border-radius: 10px;
+}
+
+.class-text-container {
+    margin: 15px 0px;
+    padding: 0px 5px;
+}
+
+.class-text-container .class-name {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.class-card .class-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.75rem;
+    line-height: 20px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.class-text-container button {
+    background-color: #e6533c;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+/* popular class style end */
 
 
 
