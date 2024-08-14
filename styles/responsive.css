@@ -159,6 +159,10 @@
         width: auto;
     }
 
+    .popular-text-container .popular-description::after {
+        left: 40%;
+    }
+
     .class-card {
         padding: 10px;
     }
@@ -174,11 +178,24 @@
     .btn {
         width: 100%;
     }
-
-
-
     /* popular class style end */
 
+    /* footer section style start */
+
+    .footer-text {
+        width: auto;
+    }
+
+    .footer-text-container {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .footer-container hr {
+        margin: 20px 20px;
+    }
+
+    /* footer section style end */
 }
 
 
